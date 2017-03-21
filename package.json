@@ -1,0 +1,30 @@
+{
+  "name": "modal",
+  "version": "0.0.1",
+  "description": "Node Modal Dialog Library",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "rimraf dist && webpack --config webpack.config.js",
+    "build-prod": "rimraf dist && webpack --config webpack.config.js --profile --evn.production"
+  },
+  "keywords": [
+    "Modal"
+  ],
+  "author": "Paschalis Thriskos",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-es2015": "^6.24.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-jquery": "^0.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "rimraf": "^2.6.1",
+    "webpack": "^2.2.1"
+  }
+}
